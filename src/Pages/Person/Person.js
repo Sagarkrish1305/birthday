@@ -66,7 +66,7 @@ const Person = ({ textFileName, personName }) => {
       <div className="card" style={cardStyle} onClick={handleCardClick}>
         <div className="card-inner" style={cardInnerStyle}>
           <div className="card-front" style={cardFrontStyle}>
-            <img src={'/Assets/images/circle-scatter-haikei.svg'} alt="Front" style={{ maxWidth: '100%', maxHeight: '100%', borderRadius: '10px' }} />
+            <img src={'/Assets/Images/circle-scatter-haikei.svg'} alt="Front" style={{ maxWidth: '100%', maxHeight: '100%', borderRadius: '10px' }} />
           </div>
           <div className="card-back" style={cardBackStyle}>
             {isFlipped && <LetterViewer fileName={textFileName} person={personName} />} {/* Conditionally render LetterViewer component */}
