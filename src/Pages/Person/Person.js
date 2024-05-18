@@ -13,7 +13,7 @@ const Person = ({ textFileName, personName }) => {
     justifyContent: 'center',
     alignItems: 'center',
     minHeight: '100vh',
-    backgroundImage: `url("/Assets/images/bgmImg.jpg")`, // Set the background image
+    backgroundImage: `url("/Assets/Images/bgmImg.jpg")`, // Set the background image
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
